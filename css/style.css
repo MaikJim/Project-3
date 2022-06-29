@@ -1,0 +1,58 @@
+/*General Styles and typography*/
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    /*1rem == 10px */
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    /*Colors*/
+    --soft-orange: #F7931A;
+    --soft-blue: #1A9AF7;
+    --gray: #BABABA;
+    --just-white: #FFFFFF;
+    --black: #282623;
+}
+/*-------------------------*/
+header {
+    text-align: center;
+    margin: 1rem;
+    position: relative;
+    top: 10rem;
+    color: var(--soft-orange);
+}
+h2{
+    color: var(--soft-orange);
+}
+main {
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    top: 10rem;
+}
+ul {
+    padding: 1rem;
+    border: 1px solid;
+    border-radius: 1rem;
+    list-style: none;
+    margin: 1rem auto;
+    width: 20rem;
+}
+li {
+    padding: 1rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover, a:active{
+    cursor: pointer;
+    font-size: 2rem;
+    color: var(--soft-blue);
+}

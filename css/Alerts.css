@@ -1,0 +1,50 @@
+/* The alert message box */
+.alert {
+    padding: 2rem;
+    background-color: #fdeded;
+    color: #723a3a;
+    width: 50%;
+    margin: 1.5rem auto;
+}
+
+/* The warning message box */
+.warning {
+    padding: 2rem;
+    background-color: #fff4e5;
+    color: #663c00;
+    width: 50%;
+    margin: 1.5rem auto;
+}
+
+/* The info message box */
+.info {
+    padding: 2rem;
+    background-color: #e5f6fd;
+    color: #034663;
+    width: 50%;
+    margin: 1.5rem auto;
+}
+/* The success message box */
+.success {
+    padding: 2rem;
+    background-color: #ecf7ed;
+    color: #355937;
+    width: 50%;
+    margin: 1.5rem auto;
+}
+  /* The close button */
+.closeBtn {
+    margin-left: 1.5rem;
+    color: white;
+    font-weight: bold;
+    font-size: 2.2rem;
+    line-height: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    left: 90%;
+}
+
+.closeBtn:hover {
+    color: black;
+}
